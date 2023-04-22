@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+.App{
+  text-align: start;
+  color: white;
+  font-family: 'Ubuntu';
+}
+.blog{
+  text-align: start;
+  margin: 2%;
+}
+.judulnya{
+  font-size: xx-large;
+  font-weight: 900;
+}
+.active {
+    background-color: #17DFE9;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+}
+.kanon{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.wrap{
+  margin: 1%;
+  color: black;
+  font-size: large;
+}
+.p-20{
+  padding: 2%;
+}
+.card {
+  width: 60%;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: rgb(1, 1, 105);
+  text-decoration: none;
+  background-color: #97dada;
+}
+.p{
+  color: #000;
+  margin-left: 6px;
+  font-size: large;
+  text-align: start;
+}
+.link{
+  padding-bottom: 1px;
+	text-decoration: none;
+	color: #046d9e;
+	transition: background-color .25s ease-out;
+}
+.card__wrapper {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  position: relative;
+  
+  background-color: #ffffff;
+  color: #999999;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+}
+.card__box {
+  padding-right: 35px;
+  padding-left: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.card-judul-blog{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.judulh{
+  font-size: calc((100vw / 1240) * 72);
+  font-family: Raleway;
+  text-align: start;  
+	line-height: 1;
+	color: #fff !important;
+	font-weight: 800;
+	padding: 6vw 0 0 0;
+	text-shadow: 2px 2px 5px black;
+	max-width: 50vw;
+  margin: 0 0 0 5vw;
+}
+.card-judul{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.card-judul{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+.tanggal{
+  color: #000;
+  margin: 5px;
+  font-size: large;
+}
+.blog{
+  padding-top: 5px;
+}
+.paragraph{
+  color: #000;
+  margin: 5px;
+  font-size: large;
+}
+.noneh{
+  display: none;
+}
+
+.anu {
+  display: block;
+  background-color: #303331;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+}
+.nap {
+    background-color: #098fc9;
+    padding: 5px;
+    top: 0;
+}
+
+.ul {
+    list-style-type: none;
+    background-color: #303331;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.hitam{
+  color:#000;
+}
+.li {
+    float: left;
+}
+.img{
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 100%;
+}
+.container{
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.card-imgs{
+  max-width: 100%;
+  padding-top: 5%
+}
+@media screen and (max-width: 600px) {
+    .nap {
+        background-color: #299CA3;
+        padding: 5px;
+        top: 0;
+    }
+
+    .nap > a {
+        font-size: 15px;
+        font-weight: 300;
+        text-decoration: none;
+        color: white;
+    }
+
+    .nap > li {
+        display: inline;
+        list-style-type: none;
+        margin-right: 20px;
+    }
+    .img {
+    padding: 0 2em 0 2em;
+    width: 66.6%;
+    }
+    .card {
+      width: 80%;
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      background-color: #76e4e4;
+    }
+    .kanon{
+      height: 250px;
+      width: 250px;
+      border-radius: 50%;
+    }
+}
+@media screen and (min-width: 1241px) {
+  .judulh {
+    font-size: 72px !important;
+    max-width: 655px;
+  }
+}
